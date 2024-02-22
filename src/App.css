@@ -1,0 +1,9 @@
+.Head1{
+    text-align: center;
+    background-color: rgb(16, 69, 80);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+}

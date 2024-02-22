@@ -1,0 +1,110 @@
+.Total-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.Form-Box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 13, 36);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Form-Box div{
+    display: flex;
+    flex-direction: column;
+}
+.lbl{
+    margin: 10px;
+    font-weight: bold;
+}
+.IP{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    margin: 10px;
+}
+.Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 47, 26);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(14, 9, 40);
+    border: none;
+    font-weight: bold;
+}
+.UL{
+    background-color: purple;
+    color: white;
+    height: 240px;
+    overflow: scroll;
+    margin: 10px;
+    border-radius: 10px;
+}
+.UL::-webkit-scrollbar{display: none}
+.LI{
+    list-style-type: none;
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.LID{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.DLT{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(7, 7, 42);
+    border: none;
+    margin: 10px;
+}
+@media screen and (max-width: 600px){
+    .Form-Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Form-Box div{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+@media screen and (max-width:320px){
+    .LI{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .LID{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+    }
+}
